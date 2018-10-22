@@ -1,0 +1,54 @@
+﻿body {
+}
+/*字体css*/
+
+
+p.serif {
+    font-family: 'Times New Roman',serif;       /*用逗号分割每一个值，以表明它们是可选项。如果一个字体的名字不只一个字，那么必须用引号如'Times New Roman'*/
+}
+p.sansserif {
+    font-family: Helvetica,Arial,sans-serif;   
+}
+
+p.monospace {
+    font-family: 'Courier New',Courier,monospace;
+}
+
+p.fantasy {
+    font-family:Blippo,fantasy;
+}
+
+p.pre {
+    white-space:pre;
+}
+
+p.xx-small {
+    font-size:xx-small;
+}
+
+p.xx-large{
+    font-size:xx-large;
+}
+
+p.italic {
+    font-style:italic;
+}
+
+p.light{
+    font-weight:lighter;
+}
+p.bold{
+    font-weight:bold;
+}
+p.smallcaps {
+    font-variant:small-caps;
+}
+p.colorg {
+    color:green;
+}
+p.color16 {
+    color:#ff0000;
+}
+p.colorrgb {
+    color:rgb(128, 128, 128);
+}

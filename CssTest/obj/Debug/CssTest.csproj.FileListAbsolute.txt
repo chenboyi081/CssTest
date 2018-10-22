@@ -1,0 +1,6 @@
+C:\Code\CssTest\CssTest\bin\CssTest.dll.config
+C:\Code\CssTest\CssTest\bin\CssTest.dll
+C:\Code\CssTest\CssTest\bin\CssTest.pdb
+C:\Code\CssTest\CssTest\obj\Debug\CssTest.csprojResolveAssemblyReference.cache
+C:\Code\CssTest\CssTest\obj\Debug\CssTest.dll
+C:\Code\CssTest\CssTest\obj\Debug\CssTest.pdb
