@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <!--<style media="screen">
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+        }
+    </style>-->
+    <style>
+        @media (min-aspect-ratio: 1/1) {
+            .box {
+                height: 100px;
+                width: 100px;
+                background-color: lightblue;
+            }
+        }
+        @media (device-aspect-ratio:4/3) {
+            .box2 {
+                height: 100px;
+                width: 100px;
+                background-color: pink;
+            }
+        }
+        @media (min-device-width: 1000px) {
+            /*向显示在最小宽度1000px的屏幕上的文档应用样式表*/
+            .box3 {
+                height: 100px;
+                width: 100px;
+                background-color: lightgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <pre>
+    深入理解CSS Media媒体查询:https://www.cnblogs.com/xiaohuochai/p/5848612.html
+媒体属性：
+　媒体属性是CSS3新增的内容，多数媒体属性带有“min-”和“max-”前缀，用于表达“小于等于”和“大于等于”。这避免了使用与HTML和XML冲突的“<”和“>
+    [注意]媒体属性必须用括号()包起来，否则无效 
+    下表中列出了所有的媒体属性
+    width | min-width | max-width
+    height | min-height | max-height
+    device-width | min-device-width | max-device-width
+    device-height | min-device-height | max-device-height
+    aspect-ratio | min-aspect-ratio | max-aspect-ratio
+    device-aspect-ratio | min-device-aspect-ratio | max-device-aspect-ratio
+    color | min-color | max-color
+    color-index | min-color-index | max-color-index
+    monochrome | min-monochrome | max-monochrome
+    resolution | min-resolution | max-resolution
+    scan | grid
+
+    媒体查询的一个常用功能是打印样式的设置，主要是背景清除、字体颜色变黑等
+
+    --------------------------------------------------------------------------------------
+</pre>
+
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+
+</body>
+</html>

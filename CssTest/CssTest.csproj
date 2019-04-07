@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,10 +66,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS %40Page.html" />
     <Content Include="css\common.css" />
     <Content Include="css\font.css" />
     <Content Include="Web.config" />
     <Content Include="font_test.html" />
+    <Content Include="深入理解CSS Media媒体查询.html" />
     <Content Include="须读.txt" />
   </ItemGroup>
   <ItemGroup>
