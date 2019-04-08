@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="../css/cropper.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/cropper.js"></script>
+</head>
+<body>
+    <pre>
+                                js实现ctrl+v粘贴上传图片(兼容chrome，firefox，ie11):https://www.cnblogs.com/djuny/p/5254626.html
+    </pre>
+
+    <textarea></textarea>
+    <div contenteditable style="width: 100px;height: 100px; border:1px solid">
+    </div>
+
+
+
+</body>
+
+</html>
+<script>
+
+document.addEventListener('paste', function (event) {
+    console.log(event)
+})
+</script> 

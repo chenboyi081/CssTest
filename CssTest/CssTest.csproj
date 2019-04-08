@@ -58,9 +58,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
+    <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
     <Content Include="packages.config" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\cropper.common.js" />
+    <Content Include="css\cropper.css" />
+    <Content Include="Scripts\cropper.esm.js" />
+    <Content Include="Scripts\cropper.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -78,7 +84,7 @@
     <Content Include="CSS %40Page.html" />
     <Content Include="css\common.css" />
     <Content Include="css\font.css" />
-    <Content Include="JSTest\ctrlv_img.html" />
+    <Content Include="JSTest\截图上传图片示例\ctrlv_img.html" />
     <Content Include="Web.config" />
     <Content Include="font_test.html" />
     <Content Include="深入理解CSS Media媒体查询.html" />
