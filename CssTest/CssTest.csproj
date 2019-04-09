@@ -60,6 +60,7 @@
   <ItemGroup>
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
+    <Content Include="JSTest\获取日期和时间.html" />
     <Content Include="packages.config" />
     <None Include=".bin\node.cmd" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
