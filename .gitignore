@@ -185,6 +185,10 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
+#bootstrap
+bootstrap-*.css
+bootstrap-*.map
+
 # SQL Server files
 *.mdf
 *.ldf
