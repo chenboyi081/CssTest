@@ -192,6 +192,8 @@ bootstrap-*.js
 popper-*.js
 popper-*.map
 
+#test
+
 
 # SQL Server files
 *.mdf
