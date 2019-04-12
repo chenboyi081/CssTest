@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-grid.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-reboot.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <pre>
+         使用最基本的表标记，这里是.table基于Bootstrap的基于表的方式。所有表格样式都在Bootstrap 4中继承，这意味着任何嵌套表格的样式都与父表格相同。
+        您还可以使用浅色背景上的浅色文本反转颜色.table-dark。
+        与表格和暗表类似，使用修饰符类.thead-light或.thead-dark使< thead > s显示为浅灰色或深灰色。
+        使用.table-striped内斑马条纹添加到任何表行<tbody>。
+        .table-bordered在表格和单元格的所有边上添加边框。
+        添加.table-hover以在a中的表行上启用悬停状态<tbody>。
+        加入.table-sm使表更加紧凑。
+        上下文类为表行或单个单元格着色。具体看：https://v4.bootcss.com/docs/4.0/content/tables/#contextual-classes
+        响应表(后续学习)Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a .table with .table-responsive. Or, pick a maximum breakpoint with which to have a responsive table up to by using .table-responsive{-sm|-md|-lg|-xl}.
+    </pre>
+
+    <span>使用最基本的表标记，这里是.table基于Bootstrap的基于表的方式。所有表格样式都在Bootstrap 4中继承，这意味着任何嵌套表格的样式都与父表格相同。</span>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+    <span>您还可以使用浅色背景上的浅色文本反转颜色.table-dark。</span>
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>与表格和暗表类似，使用修饰符类.thead-light或.thead-dark使&lt; thead &gt; s显示为浅灰色或深灰色。</span>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>使用.table-striped内斑马条纹添加到任何表行&lt;tbody&gt;。</span>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+   <span> .table-bordered在表格和单元格的所有边上添加边框。</span>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>添加.table-hover以在a中的表行上启用悬停状态&lt;tbody &gt;。</span>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>加入.table-sm使表更加紧凑。</span>
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>使用上下文类为表行或单个单元格着色。具体看：https://v4.bootcss.com/docs/4.0/content/tables/#contextual-classes </span>
+    <table class="table ">
+        <tbody>
+            <!-- On rows -->
+            <tr class="table-active">...</tr>
+
+            <tr class="table-primary">...</tr>
+            <tr class="table-secondary">...</tr>
+            <tr class="table-success">...</tr>
+            <tr class="table-danger">...</tr>
+            <tr class="table-warning">...</tr>
+            <tr class="table-info">...</tr>
+            <tr class="table-light">...</tr>
+            <tr class="table-dark">...</tr>
+
+            <!-- On cells (`td` or `th`) -->
+            <tr>
+                <td class="table-active">...</td>
+
+                <td class="table-primary">...</td>
+                <td class="table-secondary">...</td>
+                <td class="table-success">...</td>
+                <td class="table-danger">...</td>
+                <td class="table-warning">...</td>
+                <td class="table-info">...</td>
+                <td class="table-light">...</td>
+                <td class="table-dark">...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <span>黑暗表不提供常规表格背景变体，但是，您可以使用文本或背景实用程序来实现类似的样式。具体看：</span>
+    <table class="table table-dark">
+        <tbody>
+            <!-- On rows -->
+            <tr class="bg-primary">...</tr>
+            <tr class="bg-success">...</tr>
+            <tr class="bg-warning">...</tr>
+            <tr class="bg-danger">...</tr>
+            <tr class="bg-info">...</tr>
+
+            <!-- On cells (`td` or `th`) -->
+            <tr>
+                <td class="bg-primary">...</td>
+                <td class="bg-success">...</td>
+                <td class="bg-warning">...</td>
+                <td class="bg-danger">...</td>
+                <td class="bg-info">...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--TODO：后续用到响应式再需要学习-->
+    <span>
+        响应表
+        Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a .table with .table-responsive. Or, pick a maximum breakpoint with which to have a responsive table up to by using .table-responsive{-sm|-md|-lg|-xl}.
+    </span>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                        <th scope="col">Heading</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    
+</body>
+</html>
