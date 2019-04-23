@@ -10,3 +10,9 @@ C:\Users\cbyi\Source\Repos\CssTest\CssTest\bin\CssTest.pdb
 C:\Users\cbyi\Source\Repos\CssTest\CssTest\obj\Debug\CssTest.csprojResolveAssemblyReference.cache
 C:\Users\cbyi\Source\Repos\CssTest\CssTest\obj\Debug\CssTest.dll
 C:\Users\cbyi\Source\Repos\CssTest\CssTest\obj\Debug\CssTest.pdb
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\bin\CssTest.dll.config
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\bin\CssTest.dll
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\bin\CssTest.pdb
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\obj\Debug\CssTest.csprojResolveAssemblyReference.cache
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\obj\Debug\CssTest.dll
+C:\Users\cboii\Source\Repos\chenboyi081\CssTest\CssTest\obj\Debug\CssTest.pdb
