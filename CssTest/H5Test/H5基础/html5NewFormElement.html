@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>新表单元素</title>
+</head>
+<body>
+    <form action="html5NewFormElement.html" method="get">
+        一、
+        <pre>
+datalist 标签规定了 input 元素可能的选项列表。
+datalist 标签被用来在为 input 元素提供"自动完成"的特性。用户能看到一个下拉列表，里边的选项是预先定义好的，将作为用户的输入数据。
+请使用 input 元素的 list 属性来绑定 datalist 元素。
+    </pre>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+        <p><strong>注意:</strong> Internet Explorer 9（更早IE版本），Safari不支持 datalist 标签。</p>
+        <br />
+        二、
+        <pre>
+keygen 标签规定用于表单的密钥对生成器字段。
+当提交表单时，私钥存储在本地，公钥发送到服务器。
+</pre>
+        用户名: <input type="text" name="usr_name">
+        加密: <keygen name="security">
+        <input type="submit">
+
+        <p><strong>注意:</strong> Internet Explorer 不支持 keygen 标签。</p>
+    </form>
+    <br />
+    三、
+    <pre>
+output 标签定义不同类型的输出，比如脚本的输出。
+</pre>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" value=" 20">100
+        +<input type="number" id="b" value="50">
+        =<output name="x" for="a b"></output>
+    </form>
+</body>
+</html>

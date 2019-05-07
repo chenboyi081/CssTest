@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Creating an HTML Element</title>
+    <!--[if lt IE 9]>
+        <script src="JS/html5shiv.js"></script> 
+    <![endif]-->
+    <!--针对IE浏览器html5shiv 是比较好的解决方案。html5shiv主要解决HTML5提出的新的元素不被IE6-8识别，这些新元素不能作为父节点包裹子元素，并且不能应用CSS样式。-->
+    <script>document.createElement("myElement")</script>
+    <style>
+        myElement {
+            display:block;
+            background-color:#ddd;
+            padding:50px;
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>我的标题</h1>
+    <p>我的段落</p>
+    <myElement>我的第一个元素</myElement>
+</body>
+</html>
