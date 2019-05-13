@@ -71,8 +71,12 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\font-awesome-4.4.0\css\font-awesome.css" />
+    <Content Include="css\font-awesome-4.4.0\css\font-awesome.min.css" />
+    <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.svg" />
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
+    <Content Include="css\TimeLine\style.css" />
     <Content Include="H5Test\H5基础\html5Canvas.html" />
     <Content Include="H5Test\H5基础\html5DragAndDrop.html" />
     <Content Include="H5Test\H5基础\html5Geolocation.html" />
@@ -92,6 +96,7 @@
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
     <Content Include="JSTest\获取日期和时间.html" />
+    <Content Include="Lights.mp4" />
     <Content Include="packages.config" />
     <None Include="bootstrap练习\.bin\node.cmd" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -116,6 +121,28 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="css\TimeLine\style.css.map" />
+    <Content Include="css\TimeLine\style.scss" />
+    <Content Include="css\TimeLine\_animate.scss" />
+    <Content Include="css\TimeLine\_media.scss" />
+    <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="css\font-awesome-4.4.0\fonts\FontAwesome.otf" />
+    <Content Include="css\font-awesome-4.4.0\less\animated.less" />
+    <Content Include="css\font-awesome-4.4.0\less\bordered-pulled.less" />
+    <Content Include="css\font-awesome-4.4.0\less\core.less" />
+    <Content Include="css\font-awesome-4.4.0\less\fixed-width.less" />
+    <Content Include="css\font-awesome-4.4.0\less\font-awesome.less" />
+    <Content Include="css\font-awesome-4.4.0\less\icons.less" />
+    <Content Include="css\font-awesome-4.4.0\less\larger.less" />
+    <Content Include="css\font-awesome-4.4.0\less\list.less" />
+    <Content Include="css\font-awesome-4.4.0\less\mixins.less" />
+    <Content Include="css\font-awesome-4.4.0\less\path.less" />
+    <Content Include="css\font-awesome-4.4.0\less\rotated-flipped.less" />
+    <Content Include="css\font-awesome-4.4.0\less\stacked.less" />
+    <Content Include="css\font-awesome-4.4.0\less\variables.less" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\cropper.common.js" />
     <Content Include="css\cropper.css" />
@@ -138,6 +165,9 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\timeLine.js" />
+    <Content Include="js\timeLine.min.js" />
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
@@ -151,6 +181,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Source\Img\timeline\desktop.ini" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -168,6 +199,14 @@
     <Content Include="Source\Img\img_the_scream.jpg" />
     <Content Include="Source\Img\logo.png" />
     <Content Include="Source\Img\never have bug.jpg" />
+    <Content Include="Source\Img\timeline\born.jpg" />
+    <Content Include="Source\Img\timeline\cat.jpg" />
+    <Content Include="Source\Img\timeline\DEMO.gif" />
+    <Content Include="Source\Img\timeline\graduation.png" />
+    <Content Include="Source\Img\timeline\hope.jpg" />
+    <Content Include="Source\Img\timeline\me.jpg" />
+    <Content Include="Source\Img\timeline\welcome.jpg" />
+    <Content Include="Source\Img\timeline\work.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming1.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming10.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming11.jpg" />
@@ -183,6 +222,7 @@
     <Content Include="Source\Img\xiaoming_pic\xiaoming7.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming8.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming9.jpg" />
+    <Content Include="TimeLine.html" />
     <Content Include="Web.config" />
     <Content Include="CSS基础练习\font_test.html" />
     <Content Include="div+css制作表格.html" />
