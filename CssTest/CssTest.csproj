@@ -77,6 +77,7 @@
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
     <Content Include="css\TimeLine\style.css" />
+    <Content Include="CSS基础练习\div_inline.html" />
     <Content Include="H5Test\H5基础\html5Canvas.html" />
     <Content Include="H5Test\H5基础\html5DragAndDrop.html" />
     <Content Include="H5Test\H5基础\html5Geolocation.html" />
