@@ -74,6 +74,9 @@
     <Content Include="css\font-awesome-4.4.0\css\font-awesome.css" />
     <Content Include="css\font-awesome-4.4.0\css\font-awesome.min.css" />
     <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\jquery_alert\demo.css" />
+    <Content Include="css\jquery_alert\normalize.css" />
+    <Content Include="css\jquery_alert\notiflix-1.3.0.min.css" />
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
     <Content Include="css\TimeLine\style.css" />
@@ -94,6 +97,7 @@
     <Content Include="H5Test\H5基础\webessentials.html" />
     <Content Include="H5Test\H5基础\webstorage_local.html" />
     <Content Include="JSTest\二级联动\erjiliandong.html" />
+    <Content Include="JSTest\基于jquery的提示框.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
     <Content Include="JSTest\获取日期和时间.html" />
@@ -162,6 +166,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery_alert_js\jquery-1.11.0.min.js" />
+    <Content Include="Scripts\jquery_alert_js\notiflix-1.3.0.min.js" />
     <Content Include="Scripts\popper-utils.js" />
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
