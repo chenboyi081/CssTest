@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3: Responsive Grid</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #EC407A;
+                color: #fff;
+                height: 120px;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            position: relative;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+            margin-bottom: 40px;
+            width: 100%;
+            padding: 18px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">Higher grid tiers scale up - <b>md</b> and <b>lg</b> inherit their value from <b>sm</b>. On lower grid tears (<b>xs</b> in our examples) columns default to 12 if their size is not specified.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">col-xs-6 <br> col-sm-3</div>
+            <div class="col-xs-6 col-sm-3">col-xs-6 <br> col-sm-3</div>
+            <div class="col-xs-6 col-sm-3">col-xs-6 <br> col-sm-3</div>
+            <div class="col-xs-6 col-sm-3">col-xs-6 <br> col-sm-3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">col-sm-4</div>
+            <div class="col-sm-4">col-sm-4</div>
+            <div class="col-sm-4">col-sm-4</div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

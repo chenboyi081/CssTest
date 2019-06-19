@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3: Column Height</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #EC407A;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            position: relative;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+            margin-bottom: 40px;
+            width: 100%;
+            padding: 18px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">In the old non-flexbox grid the height of columns was determened by the content inside them.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4">col-xs-4 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+            <div class="col-xs-4">col-xs-4 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div>
+            <div class="col-xs-4">col-xs-4 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

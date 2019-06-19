@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4: Horizontal Alignment</title>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+            background-color: #efefef;
+        }
+
+            .row > div {
+                background-color: #1E88E5;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">Flexbox is great for aligning things. By adding one of the classes below to any <b>row</b> we can define the position of columns inside it. Regular offsets work as well.</p>
+        </div>
+
+        <div class="row justify-content-start">
+            <div class="col-6 ">justify-content-start</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6">justify-content-center</div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-6">justify-content-end</div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4">justify-content-around</div>
+            <div class="col-4">justify-content-around</div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-4">justify-content-between</div>
+            <div class="col-4">justify-content-between</div>
+        </div>
+        <div class="row justify-content-end justify-content-sm-start">
+            <div class="col-8">Responsive alignment: <br> justify-content-end <br> justify-content-sm-start</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
