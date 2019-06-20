@@ -66,6 +66,13 @@
     <Content Include="bootstrap练习\C02卡片式布局基于bootstrap4\js\jquery-equal-height-old.js" />
     <Content Include="bootstrap练习\C02卡片式布局基于bootstrap4\js\jquery-equal-height.js" />
     <Content Include="bootstrap练习\C02卡片式布局基于bootstrap4\js\jquery-equal-height.min.js" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\css\style.css" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\img\wave1.jpg" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\img\wave2.jpg" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\img\wave3.jpg" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\index.html" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\js\index.js" />
+    <Content Include="bootstrap练习\C11基于jquery和CSS3的网格布局（特效带伸拉）\js\jquery.min.js" />
     <Content Include="bootstrap练习\组件\C01Card.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\index.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\列包装bootstrap3.html" />
@@ -77,7 +84,6 @@
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\垂直对齐bootstrap3.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\垂直对齐bootstrap4.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\基本网格bootstrap3.html" />
-    <Content Include="bootstrap练习\dropdowns.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\对列重新排序bootstrap3.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\对列重新排序bootstrap4.html" />
     <Content Include="bootstrap练习\网格练习-bootstrap3和bootstrap4对比\水平对齐bootstrap3.html" />
@@ -94,7 +100,6 @@
     <Content Include="bootstrap练习\signin.html" />
     <Content Include="bootstrap练习\table.html" />
     <Content Include="bootstrap练习\导航栏1.html" />
-    <Content Include="bootstrap练习\C10基于bootstrap3的网格布局\index3（基于bootstrap4）.html" />
     <Content Include="bootstrap练习\C10基于bootstrap3的网格布局\index2.html" />
     <Content Include="bootstrap练习\C10基于bootstrap3的网格布局\js\jquery-1.11.0.min.js" />
     <Content Include="bootstrap练习\C10基于bootstrap3的网格布局\related\1.jpg" />
@@ -114,22 +119,24 @@
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
     <Content Include="css\TimeLine\style.css" />
-    <Content Include="CSS基础练习\div_inline.html" />
-    <Content Include="H5Test\H5基础\html5Canvas.html" />
-    <Content Include="H5Test\H5基础\html5DragAndDrop.html" />
-    <Content Include="H5Test\H5基础\html5Geolocation.html" />
-    <Content Include="H5Test\H5基础\html5Index.html" />
-    <Content Include="H5Test\H5基础\html5Input.html" />
-    <Content Include="H5Test\H5基础\html5myFirstDefinedElement.html" />
-    <Content Include="H5Test\H5基础\html5NewFormAttribute.html" />
-    <Content Include="H5Test\H5基础\html5NewFormElement.html" />
-    <Content Include="H5Test\H5基础\html5NewMediaElement.html" />
-    <Content Include="H5Test\H5基础\html5NewStructuredElement.html" />
-    <Content Include="H5Test\H5基础\html5SVG.html" />
-    <Content Include="H5Test\H5基础\html5video.html" />
-    <Content Include="H5Test\H5基础\html5waterfallflow.html" />
-    <Content Include="H5Test\H5基础\webessentials.html" />
-    <Content Include="H5Test\H5基础\webstorage_local.html" />
+    <Content Include="CSS练习\div_inline.html" />
+    <Content Include="H5基础练习\html5Canvas.html" />
+    <Content Include="H5基础练习\html5DragAndDrop.html" />
+    <Content Include="H5基础练习\html5Geolocation.html" />
+    <Content Include="H5基础练习\html5Index.html" />
+    <Content Include="H5基础练习\html5Input.html" />
+    <Content Include="H5基础练习\html5myFirstDefinedElement.html" />
+    <Content Include="H5基础练习\html5NewFormAttribute.html" />
+    <Content Include="H5基础练习\html5NewFormElement.html" />
+    <Content Include="H5基础练习\html5NewMediaElement.html" />
+    <Content Include="H5基础练习\html5NewStructuredElement.html" />
+    <Content Include="H5基础练习\html5SVG.html" />
+    <Content Include="H5基础练习\html5video.html" />
+    <Content Include="H5基础练习\html5waterfallflow瀑布流.html" />
+    <Content Include="H5基础练习\webessentials.html" />
+    <Content Include="H5基础练习\webstorage_local.html" />
+    <Content Include="index.html" />
+    <Content Include="JSTest\jquery_cropper.html" />
     <Content Include="JSTest\二级联动\erjiliandong.html" />
     <Content Include="JSTest\基于jquery的提示框.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
@@ -232,9 +239,15 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="综合练习\下拉加载\dist\dropload.css" />
+    <Content Include="综合练习\下拉加载\dist\dropload.js" />
+    <Content Include="综合练习\下拉加载\dist\dropload.min.js" />
+    <Content Include="综合练习\下拉加载\examples\json\more.json" />
+    <Content Include="综合练习\下拉加载\examples\json\update.json" />
+    <Content Include="综合练习\下拉加载\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS进阶练习\CSS %40Page.html" />
+    <Content Include="CSS练习\CSS %40Page.html" />
     <Content Include="css\common.css" />
     <Content Include="css\font.css" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img.html" />
@@ -268,9 +281,20 @@
     <Content Include="Source\Img\xiaoming_pic\xiaoming9.jpg" />
     <Content Include="TimeLine.html" />
     <Content Include="Web.config" />
-    <Content Include="CSS基础练习\font_test.html" />
-    <Content Include="div+css制作表格.html" />
-    <Content Include="CSS进阶练习\深入理解CSS Media媒体查询.html" />
+    <Content Include="CSS练习\font_test.html" />
+    <Content Include="CSS练习\深入理解CSS Media媒体查询.html" />
+    <Content Include="综合练习\下拉加载\examples\js\jquery.min.js" />
+    <Content Include="综合练习\下拉加载\examples\js\zepto.min.js" />
+    <Content Include="综合练习\下拉加载\examples\load-bottom.html" />
+    <Content Include="综合练习\下拉加载\examples\load-bottom.png" />
+    <Content Include="综合练习\下拉加载\examples\load-top-bottom.html" />
+    <Content Include="综合练习\下拉加载\examples\load-top-bottom.png" />
+    <Content Include="综合练习\下拉加载\examples\multiple-load.html" />
+    <Content Include="综合练习\下拉加载\examples\multiple-load.png" />
+    <Content Include="综合练习\下拉加载\examples\product-list.html" />
+    <Content Include="综合练习\下拉加载\examples\product-list.png" />
+    <Content Include="综合练习\下拉加载\examples\tab.html" />
+    <Content Include="综合练习\下拉加载\examples\tab.png" />
     <Content Include="须读.txt" />
   </ItemGroup>
   <ItemGroup>
