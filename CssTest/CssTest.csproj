@@ -118,7 +118,7 @@
     <Content Include="css\jquery_alert\notiflix-1.3.0.min.css" />
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
-    <Content Include="css\TimeLine\style.css" />
+    <Content Include="综合练习\时间轴\css\style.css" />
     <Content Include="CSS练习\div_inline.html" />
     <Content Include="H5基础练习\html5Canvas.html" />
     <Content Include="H5基础练习\html5DragAndDrop.html" />
@@ -142,7 +142,7 @@
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
     <Content Include="JSTest\获取日期和时间.html" />
-    <Content Include="Lights.mp4" />
+    <Content Include="综合练习\时间轴\Lights.mp4" />
     <Content Include="packages.config" />
     <None Include="bootstrap练习\.bin\node.cmd" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -157,10 +157,10 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
-    <Content Include="css\TimeLine\style.css.map" />
-    <Content Include="css\TimeLine\style.scss" />
-    <Content Include="css\TimeLine\_animate.scss" />
-    <Content Include="css\TimeLine\_media.scss" />
+    <Content Include="综合练习\时间轴\css\style.css.map" />
+    <Content Include="综合练习\时间轴\css\style.scss" />
+    <Content Include="综合练习\时间轴\css\_animate.scss" />
+    <Content Include="综合练习\时间轴\css\_media.scss" />
     <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.eot" />
     <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.ttf" />
     <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.woff" />
@@ -216,9 +216,9 @@
     <Content Include="Scripts\popper-utils.min.js" />
     <Content Include="Scripts\popper.js" />
     <Content Include="Scripts\popper.min.js" />
-    <Content Include="js\script.js" />
-    <Content Include="js\timeLine.js" />
-    <Content Include="js\timeLine.min.js" />
+    <Content Include="综合练习\时间轴\js\jquery-3.3.1.js" />
+    <Content Include="综合练习\时间轴\js\timeLine.js" />
+    <Content Include="综合练习\时间轴\js\timeLine.min.js" />
     <Content Include="Scripts\umd\popper-utils.js" />
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
@@ -279,7 +279,7 @@
     <Content Include="Source\Img\xiaoming_pic\xiaoming7.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming8.jpg" />
     <Content Include="Source\Img\xiaoming_pic\xiaoming9.jpg" />
-    <Content Include="TimeLine.html" />
+    <Content Include="综合练习\时间轴\TimeLine.html" />
     <Content Include="Web.config" />
     <Content Include="CSS练习\font_test.html" />
     <Content Include="CSS练习\深入理解CSS Media媒体查询.html" />
