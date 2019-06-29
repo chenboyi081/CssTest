@@ -118,6 +118,22 @@
     <Content Include="css\jquery_alert\notiflix-1.3.0.min.css" />
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\default.css" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\normalize.css" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.svg" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\forgot-password.html" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\index.html" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\js\jquery-1.11.0.min.js" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\register.html" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\css\htmleaf-demo.css" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\css\normalize.css" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\fonts\icomoon.svg" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\index.html" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\js\jquery-2.1.1.min.js" />
+    <Content Include="综合练习\多套登录模板\简洁时尚的CSS3用户登录界面设计效果\css\htmleaf-demo.css" />
+    <Content Include="综合练习\多套登录模板\简洁时尚的CSS3用户登录界面设计效果\css\login.css" />
+    <Content Include="综合练习\多套登录模板\简洁时尚的CSS3用户登录界面设计效果\index2%28基于bootstrap4%29.html" />
+    <Content Include="综合练习\多套登录模板\简洁时尚的CSS3用户登录界面设计效果\index1%28基于bootstrap3%29.html" />
     <Content Include="综合练习\时间轴\css\style.css" />
     <Content Include="CSS练习\div_inline.html" />
     <Content Include="H5基础练习\html5Canvas.html" />
@@ -245,6 +261,12 @@
     <Content Include="综合练习\下拉加载\examples\json\more.json" />
     <Content Include="综合练习\下拉加载\examples\json\update.json" />
     <Content Include="综合练习\下拉加载\README.md" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\fonts\icomoon.eot" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\fonts\icomoon.ttf" />
+    <Content Include="综合练习\多套登录模板\带摇晃特效的扁平风格登录注册表单界面\fonts\icomoon.woff" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.eot" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.ttf" />
+    <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.woff" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS练习\CSS %40Page.html" />
