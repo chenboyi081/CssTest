@@ -71,6 +71,8 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\dialog.css" />
+    <Content Include="css\dialog.old.css" />
     <Content Include="css\font-awesome-4.4.0\css\font-awesome.css" />
     <Content Include="css\font-awesome-4.4.0\css\font-awesome.min.css" />
     <Content Include="css\font-awesome-4.4.0\fonts\fontawesome-webfont.svg" />
@@ -94,6 +96,7 @@
     <Content Include="H5Test\H5基础\webessentials.html" />
     <Content Include="H5Test\H5基础\webstorage_local.html" />
     <Content Include="JSTest\二级联动\erjiliandong.html" />
+    <Content Include="JSTest\基于zepto的提示框.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img3.html" />
     <Content Include="JSTest\截图上传图片示例\ctrlv_img2.html" />
     <Content Include="JSTest\获取日期和时间.html" />
@@ -104,6 +107,8 @@
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\dialog.js" />
+    <Content Include="Scripts\dialog.min.js" />
     <Content Include="Scripts\esm\popper-utils.js" />
     <Content Include="Scripts\esm\popper-utils.min.js" />
     <Content Include="Scripts\esm\popper.js" />
@@ -144,6 +149,7 @@
     <Content Include="css\font-awesome-4.4.0\less\rotated-flipped.less" />
     <Content Include="css\font-awesome-4.4.0\less\stacked.less" />
     <Content Include="css\font-awesome-4.4.0\less\variables.less" />
+    <Content Include="css\dialog.less" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\cropper.common.js" />
     <Content Include="css\cropper.css" />
@@ -182,6 +188,7 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\zepto.min.js" />
     <Content Include="Source\Img\timeline\desktop.ini" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
