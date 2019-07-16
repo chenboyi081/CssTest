@@ -185,12 +185,6 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
-#bootstrap
-bootstrap-*.css
-bootstrap-*.map
-bootstrap-*.js
-popper-*.js
-popper-*.map
 
 #test
 

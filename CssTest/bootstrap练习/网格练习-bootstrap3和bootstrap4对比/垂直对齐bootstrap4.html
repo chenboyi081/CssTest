@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4: Vertical Alignment</title>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+            background-color: #efefef;
+            height: 100px;
+        }
+
+            .row > div {
+                background-color: #1E88E5;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">We can adjust where flex columns are positioned top-to-bottom by adding classes to rows or columns.</p>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col">Row: align-items-center</div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col">Row: align-items-end</div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col">Row: align-items-start</div>
+        </div>
+        <div class="row">
+            <div class="col align-self-start">align-self-start</div>
+            <div class="col align-self-center">align-self-center</div>
+            <div class="col align-self-end">align-self-end</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

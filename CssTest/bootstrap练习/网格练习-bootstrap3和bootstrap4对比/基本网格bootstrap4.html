@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap 4: Basic Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <!--Bootstrap 4: 对比普通网格和 Flexbox 网格： https://www.oschina.net/translate/boostrap-4-regular-vs-flex-grid?comments&p=2-->
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #1E88E5;
+                color: #fff;
+                height: 120px;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">In Bootstrap 4, the lowest breakpoint class is simply <b>.col-*</b>.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-4">.col-4</div>
+            <div class="col-4">.col-4</div>
+            <div class="col-4">.col-4</div>
+        </div>
+        <div class="row">
+            <div class="col-12">.col-12</div>
+        </div>
+        <div class="row">
+            <div class="col-6">.col-6</div>
+            <div class="col-6">.col-6</div>
+        </div>
+        <div class="row">
+            <div class="col-8">.col-8</div>
+            <div class="col-2">.col-2</div>
+            <div class="col-2">.col-2</div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

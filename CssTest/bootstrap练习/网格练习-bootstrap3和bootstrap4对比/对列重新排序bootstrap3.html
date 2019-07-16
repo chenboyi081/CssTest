@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3: Reordering Columns</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #EC407A;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            position: relative;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+            margin-bottom: 40px;
+            width: 100%;
+            padding: 18px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">In Bootstrap 3 reordering columns is done using <b>push</b> and <b>pull</b> and specifying the number of spaces you want columns to move.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 col-xs-push-8">1st in markup <br> Last in layout <br> col-xs-push-8 </div>
+            <div class="col-xs-4 col-xs-pull-4">2nd in markup <br> First in layout <br> col-xs-pull-4 </div>
+            <div class="col-xs-4 col-xs-pull-4">3rd in markup <br> Middle in layout <br> col-xs-pull-4 </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

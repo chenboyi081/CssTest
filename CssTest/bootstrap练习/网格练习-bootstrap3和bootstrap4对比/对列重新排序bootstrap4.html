@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 4: Reordering Columns</title>
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #1E88E5;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">With Bootstrap 4 reordering elements is pretty straightforward. There are no pushes and pulls involved and the markup is very easy to read.</p>
+        </div>
+
+        <div class="row">
+            <div class="col flex-last">1st in markup <br> Last in layout <br> flex-last </div>
+            <div class="col flex-first">2nd in markup <br> First in layout <br> flex-first </div>
+            <div class="col flex-unordered">3rd in markup <br> Unordered in layout <br> flex-unordered </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

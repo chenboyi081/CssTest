@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bootstrap 4: Auto Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        .container {
+            padding: 20px;
+        }
+
+        .row {
+            margin-bottom: 10px;
+        }
+
+            .row > div {
+                background-color: #1E88E5;
+                color: #fff;
+                height: 120px;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+        .card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <div class="card card-block">
+            <p class="card-text">Thanks to flexbox the Bootstrap 4 grid has the option of auto layout - columns share equally the available space in a row unless a specific size is assigned.</p>
+        </div>
+
+        <div class="row">
+            <div class="col">.col <br> 1 of 3 (33%)</div>
+            <div class="col">.col <br> 1 of 3 (33%)</div>
+            <div class="col">.col <br> 1 of 3 (33%)</div>
+        </div>
+        <div class="row">
+            <div class="col">.col <br> 1 of 1 (100%)</div>
+        </div>
+        <div class="row">
+            <div class="col">.col <br> 1 of 2 (50%)</div>
+            <div class="col">.col <br> 1 of 2 (50%)</div>
+        </div>
+        <div class="row">
+            <div class="col-8">.col-8 <br> Fixed 8 of 12 (66%), the other columns in the row will split the remaining 4 (33%) </div>
+            <div class="col">.col</div>
+            <div class="col">.col</div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
