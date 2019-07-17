@@ -796,6 +796,7 @@
     <Content Include="Scripts\plugins\wow\wow.min.js" />
     <Content Include="综合练习\DataTables插件练习\HtmlPage1.html" />
     <Content Include="综合练习\DataTables插件练习\objects.txt" />
+    <Content Include="综合练习\DatePicker插件\HtmlPage1.html" />
     <Content Include="综合练习\FooTable插件练习\row-toggle.html" />
     <Content Include="综合练习\FooTable插件练习\如何创建具有单个标题行的表.html" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\default.css" />
