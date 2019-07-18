@@ -377,6 +377,14 @@
     <Content Include="css\jquery_alert\notiflix-1.3.0.min.css" />
     <Content Include="css\signin.css" />
     <Content Include="css\waterfallflow.css" />
+    <Content Include="Scripts\dropzone\basic.css" />
+    <Content Include="Scripts\dropzone\basic.min.css" />
+    <Content Include="Scripts\dropzone\dropzone-amd-module.js" />
+    <Content Include="Scripts\dropzone\dropzone-amd-module.min.js" />
+    <Content Include="Scripts\dropzone\dropzone.css" />
+    <Content Include="Scripts\dropzone\dropzone.js" />
+    <Content Include="Scripts\dropzone\dropzone.min.css" />
+    <Content Include="Scripts\dropzone\dropzone.min.js" />
     <Content Include="Scripts\plugins\blueimp\jquery.blueimp-gallery.min.js" />
     <Content Include="Scripts\plugins\bootstrap-markdown\bootstrap-markdown.js" />
     <Content Include="Scripts\plugins\bootstrap-markdown\markdown.js" />
@@ -797,6 +805,7 @@
     <Content Include="综合练习\DataTables插件练习\HtmlPage1.html" />
     <Content Include="综合练习\DataTables插件练习\objects.txt" />
     <Content Include="综合练习\DatePicker插件\HtmlPage1.html" />
+    <Content Include="综合练习\dropzone插件练习\DropZoneTest.html" />
     <Content Include="综合练习\FooTable插件练习\row-toggle.html" />
     <Content Include="综合练习\FooTable插件练习\如何创建具有单个标题行的表.html" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\default.css" />

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DropZoneTest</title>
+	<meta charset="utf-8" />
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../Content/plugins/dropzone/basic.css" rel="stylesheet" />
+    <link href="../../Content/plugins/dropzone/dropzone.css" rel="stylesheet" />
+    <script src="../../Scripts/plugins/dropzone/dropzone.js"></script>
+</head>
+<body>
+    <form action="/file-upload"
+          class="dropzone"
+          id="my-awesome-dropzone"></form>
+
+    <form action="/file-upload" class="dropzone">
+        <div>
+            名字：<input class="" type="text"/>
+        </div>
+        <div class="fallback">
+            <input name="file" type="file" multiple />
+        </div>
+    </form>
+  
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+
+    });
+</script>

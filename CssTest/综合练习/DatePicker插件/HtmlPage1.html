@@ -21,7 +21,53 @@
                 <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="03/04/2014">
             </div>
         </div>
+        
     </form>
-
+    <button type="button" onclick="openModal()">显示modal</button>
+    <div class="modal fade" id="AddOrEdit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabe2"><span class="EmWork"></span></h4>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true"></span><i class="fa fa-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formID2" method="post">
+                        <div class="form-group" id="data_2">
+                            <label class="font-normal">Simple data input format</label>
+                            <div class="input-group date">
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span><input type="text" class="form-control" value="">
+                            </div>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#data_1 .input-group.date').datepicker({
+            format: "yyyy-mm-dd",
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            calendarWeeks: true,
+            autoclose: true
+        });
+        $('#data_2 .input-group.date').datepicker({
+            format: "yyyy-mm-dd",
+            todayBtn: "linked",
+            keyboardNavigation: false,
+            forceParse: false,
+            calendarWeeks: true,
+            autoclose: true
+        });
+    });
+
+    function openModal() {
+        $("#AddOrEdit").modal('show');
+    }
+</script>
