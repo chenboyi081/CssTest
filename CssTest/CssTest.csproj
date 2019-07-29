@@ -802,12 +802,15 @@
     <Content Include="Scripts\plugins\validate\jquery.validate.min.js" />
     <Content Include="Scripts\plugins\video\responsible-video.js" />
     <Content Include="Scripts\plugins\wow\wow.min.js" />
+    <Content Include="综合练习\DataTables插件练习\demo.html" />
     <Content Include="综合练习\DataTables插件练习\HtmlPage1.html" />
+    <Content Include="综合练习\DataTables插件练习\js\dataTables.treeGrid.js" />
     <Content Include="综合练习\DataTables插件练习\objects.txt" />
     <Content Include="综合练习\DatePicker插件\HtmlPage1.html" />
     <Content Include="综合练习\dropzone插件练习\DropZoneTest.html" />
     <Content Include="综合练习\FooTable插件练习\row-toggle.html" />
     <Content Include="综合练习\FooTable插件练习\如何创建具有单个标题行的表.html" />
+    <Content Include="综合练习\jqGrid插件练习\jqGridTest.html" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\default.css" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\normalize.css" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.svg" />
@@ -977,6 +980,8 @@
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.eot" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.ttf" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.woff" />
+    <Content Include="综合练习\DataTables插件练习\js\README.md" />
+    <Content Include="综合练习\DataTables插件练习\json\data.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS练习\CSS %40Page.html" />
