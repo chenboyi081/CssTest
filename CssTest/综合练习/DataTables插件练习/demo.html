@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
  <head>
   <title> DataTables Demo </title>
@@ -56,6 +56,12 @@
                 'expandAll' : true, //是否默认展开 true 是
                 'expandIcon': '<span> + </span>',
                 'collapseIcon': '<span> - </span>'
+            },
+            select: {   //https://datatables.net/extensions/select/examples/ 选择
+                style: 'multi',
+                //blurable: true,     //当用户将焦点移到DataTable之外时，让所选项目自动取消
+                //selector: 'td:first-child'
+                selector: 'td:not(:first-child)'
             },
             "columns": [
                 {

@@ -811,6 +811,19 @@
     <Content Include="综合练习\FooTable插件练习\row-toggle.html" />
     <Content Include="综合练习\FooTable插件练习\如何创建具有单个标题行的表.html" />
     <Content Include="综合练习\jqGrid插件练习\jqGridTest.html" />
+    <Content Include="综合练习\jsTree插件练习\dist\jstree.js" />
+    <Content Include="综合练习\jsTree插件练习\dist\jstree.min.js" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default-dark\32px.png" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default-dark\40px.png" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default-dark\style.css" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default-dark\style.min.css" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default-dark\throbber.gif" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default\32px.png" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default\40px.png" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default\style.css" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default\style.min.css" />
+    <Content Include="综合练习\jsTree插件练习\dist\themes\default\throbber.gif" />
+    <Content Include="综合练习\jsTree插件练习\index.html" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\default.css" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\css\normalize.css" />
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.svg" />
@@ -982,6 +995,7 @@
     <Content Include="综合练习\多套登录模板\Material Design风格用户注册登录界面设计\fonts\icomoon.woff" />
     <Content Include="综合练习\DataTables插件练习\js\README.md" />
     <Content Include="综合练习\DataTables插件练习\json\data.json" />
+    <Content Include="综合练习\jsTree插件练习\root.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS练习\CSS %40Page.html" />
@@ -1067,6 +1081,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties 综合练习_4jsTree插件练习_4root_1json__JSONSchema="http://json.schemastore.org/2.0.0-csd.2.beta.2018-10-10.json" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
