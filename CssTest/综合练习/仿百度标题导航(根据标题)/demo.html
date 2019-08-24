@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>仿百度百科右侧导航代码jquery插件</title>
+    <link href="baidu-nav.css" rel="stylesheet" />
+    <style>
+        html, body, h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2, h3 {
+            height: 500px;
+            margin-bottom: 10px;
+            border: #ddd solid 1px;
+        }
+
+        li {
+            list-style: none;
+            margin: 0;
+            vertical-align: top;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+    </style>
+</head>
+<body style="padding: 40px;">
+
+    <h1>向下滚动，观察右下角 仿百度百科右侧导航代码jquery插件</h1>
+    <h2>标题一</h2>
+    <h3>标题一-1</h3>
+    <h3>标题一-2</h3>
+    <h3>标题一-3</h3>
+    <h2>标题二</h2>
+    <h3>标题一-1</h3>
+    <h3>标题一-2</h3>
+    <h3>标题一-3</h3>
+    <h2>标题三</h2>
+    <h2>标题四</h2>
+    <h2>标题五</h2>
+    <h2>标题六</h2>
+
+    <!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="baidunav.js"></script>
+    <script type="text/javascript">
+
+
+    //实例化
+    var directoryNav = new DirectoryNav($("h2,h3"),{
+        scrollTopBorder:0   //滚动条距离顶部多少的时候显示导航，如果为0，则一直显示
+    });
+
+    </script>
+</body>
+</html>

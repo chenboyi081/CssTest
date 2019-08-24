@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- fontIconPicker Style -->
+        <link href="jquery-fontIconPicker/css/jquery.fonticonpicker.min.css" rel="stylesheet" />
+        <link href="jquery-fontIconPicker/themes/bootstrap-theme/jquery.fonticonpicker.bootstrap.min.css" rel="stylesheet" />
+		<!-- Font -->
+		<!--<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />-->
+        <link href="../../css/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<input type="text" id="picker" name="picker"/>
+
+		<!-- jQuery -->
+		<!--<script src="jquery/dist/jquery.min.js"></script>-->
+
+        <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+		<!-- icon picker -->
+        <script src="jquery-fontIconPicker/jquery.fonticonpicker.min.js"></script>
+
+		<!-- font-awesome icon source -->
+		<!--<script type="text/javascript" src="fa-icon-source.js" ></script>-->
+        <script src="fa-icon-source.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				/**
+				 * Init the fontIconPickers on the jumbotron
+				 */
+				$('#picker').fontIconPicker({
+					source: fa_icons,
+					searchSource: fa_icons,
+					//useAttribute: true,
+					theme: 'fip-bootstrap',
+					//attributeName: 'data-icomoon',
+					emptyIconValue: 'none',
+				});
+
+			});
+			
+		</script>
+	</body>
+</html>
