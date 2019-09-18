@@ -857,6 +857,39 @@
     <Content Include="综合练习\jsTree插件练习\dist\themes\default\throbber.gif" />
     <Content Include="综合练习\jsTree插件练习\index.html" />
     <Content Include="综合练习\jsTree插件练习\index2.html" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.css" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.js" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.min.css" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.min.js" />
+    <Content Include="综合练习\magnify图片查看器练习\images\gou.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_big_1.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_big_2.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_big_3.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_small_1.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_small_2.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\img_small_3.jpg" />
+    <Content Include="综合练习\magnify图片查看器练习\images\logo.png" />
+    <Content Include="综合练习\magnify图片查看器练习\images\QQ截图20181128160936.png" />
+    <Content Include="综合练习\magnify图片查看器练习\index.html" />
+    <Content Include="综合练习\magnify图片查看器练习\js\jquery-1.11.0.min.js" />
+    <Content Include="综合练习\masonry砖块布局练习\dist\masonry.pkgd.js" />
+    <Content Include="综合练习\masonry砖块布局练习\dist\masonry.pkgd.min.js" />
+    <Content Include="综合练习\masonry砖块布局练习\helpers.js" />
+    <Content Include="综合练习\masonry砖块布局练习\index.html" />
+    <Content Include="综合练习\masonry砖块布局练习\masonry.js" />
+    <Content Include="综合练习\masonry砖块布局练习\tests.css" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\basic-layout.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\element-sizing.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\empty.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\fit-width.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\gutter.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\horizontal-order.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\pixel-rounding.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\stamp.js" />
+    <Content Include="综合练习\masonry砖块布局练习\unit\zero-column-width.js" />
+    <Content Include="综合练习\QUtil单元测试练习\test1.js" />
+    <Content Include="综合练习\QUtil单元测试练习\入门1.html" />
+    <Content Include="综合练习\switcher插件练习\switcher.html" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\baidu-nav.css" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\baidunav.js" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\demo.html" />
@@ -1174,6 +1207,10 @@
     <Content Include="综合练习\图片选择器\font-awesome\scss\_stacked.scss" />
     <Content Include="综合练习\图片选择器\font-awesome\scss\_variables.scss" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\images\Thumbs.db" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.css.map" />
+    <Content Include="综合练习\magnify图片查看器练习\dist\jquery.magnify.min.css.map" />
+    <Content Include="综合练习\masonry砖块布局练习\.jshintrc" />
+    <Content Include="综合练习\masonry砖块布局练习\package.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS练习\CSS %40Page.html" />
@@ -1263,7 +1300,6 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties 综合练习_4jsTree插件练习_4root_1json__JSONSchema="http://json.schemastore.org/2.0.0-csd.2.beta.2018-10-10.json" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
