@@ -890,6 +890,11 @@
     <Content Include="综合练习\QUtil单元测试练习\test1.js" />
     <Content Include="综合练习\QUtil单元测试练习\入门1.html" />
     <Content Include="综合练习\switcher插件练习\switcher.html" />
+    <Content Include="综合练习\Twitter“点赞”红心按钮CSS3动画特效\css\default.css" />
+    <Content Include="综合练习\Twitter“点赞”红心按钮CSS3动画特效\css\normalize.css" />
+    <Content Include="综合练习\Twitter“点赞”红心按钮CSS3动画特效\css\style.css" />
+    <Content Include="综合练习\Twitter“点赞”红心按钮CSS3动画特效\images\web_heart_animation.png" />
+    <Content Include="综合练习\Twitter“点赞”红心按钮CSS3动画特效\index.html" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\baidu-nav.css" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\baidunav.js" />
     <Content Include="综合练习\仿百度标题导航%28根据标题%29\demo.html" />
